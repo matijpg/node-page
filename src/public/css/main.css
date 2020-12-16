@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap');
+
+:root{
+  --anton-font:'Anton', sans-serif;
+  --roboto-family:'Roboto', sans-serif;
+}
+
+body{
+  background-color: tomato;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  scroll-behavior: smooth;
+}
+
+.navbar{
+  font-family: var(--anton-font);
+}
+
+.fas {
+  margin: 0 0.5rem;
+}
